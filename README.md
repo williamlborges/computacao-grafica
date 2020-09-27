@@ -1,3 +1,5 @@
+#Lista02
+
 Crie as imagens da figura abaixo usando a biblioteca Pillow do Python. 
 Todas as imagens devem ser criadas no modo RGB, ou seja, três valores para cada pixel. 
 Observe atentamente as dimensões de cada imagem. 
