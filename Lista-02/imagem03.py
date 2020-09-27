@@ -1,4 +1,4 @@
-from PIL import Image # importar a biblioteca Pillow
+from PIL import Image 
 mode = "RGB"
 size = (4, 13)
 
