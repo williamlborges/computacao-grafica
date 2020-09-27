@@ -17,3 +17,4 @@ for i in range(img.size[0]):
             matriz[i, j] = (10, 30, 200)
 
 img.save('imagem03rgb.png')
+print('Imagem criada com sucesso!')

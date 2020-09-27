@@ -15,3 +15,4 @@ for i in range(1, img.size[0]):
             matriz[i, j] = (88, 88, 88)
 
 img.save('imagem02Cinza.png')
+print('Imagem criada com sucesso!')

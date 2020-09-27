@@ -27,7 +27,7 @@ def criarBitmap():
             matriz[i, j] = (0, 0, 0)
     
     img.save('imagem01Bitmap.png')
-
+    print('Imagem criada com sucesso!')
 
 if __name__ == "__main__":
 
