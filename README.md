@@ -1,2 +1,2 @@
-Lista de resolução de exercícios da Disciplina de Computação Gráfica
+Listas de resolução de exercícios da Disciplina de Computação Gráfica
 
