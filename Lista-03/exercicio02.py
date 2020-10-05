@@ -11,7 +11,7 @@ Correção gama de uma imagem
 # gama desta imagem para os valores de gama 0.25, 0.5, 1, 2, 3.
   
 def gama025Cinza():
-    img = Image.open('xadrez.jpg')
+    img = Image.open('images/xadrez.jpg')
     matriz = img.load()
 
     gama = 0.25
@@ -22,10 +22,10 @@ def gama025Cinza():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('xadrez025Cinza.jpg')
+    img.save('images/02/xadrez025Cinza.jpg')
     
 def gama050Cinza():
-    img = Image.open('xadrez.jpg')
+    img = Image.open('images/xadrez.jpg')
     matriz = img.load()
 
     gama = 0.50
@@ -36,10 +36,10 @@ def gama050Cinza():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('xadrez050Cinza.jpg')
+    img.save('images/02/xadrez050Cinza.jpg')
 
 def gama1Cinza():
-    img = Image.open('xadrez.jpg')
+    img = Image.open('images/xadrez.jpg')
     matriz = img.load()
 
     gama = 1
@@ -50,10 +50,10 @@ def gama1Cinza():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('xadrez1Cinza.jpg')
+    img.save('images/02/xadrez1Cinza.jpg')
 
 def gama2Cinza():
-    img = Image.open('xadrez.jpg')
+    img = Image.open('images/xadrez.jpg')
     matriz = img.load()
 
     gama = 2
@@ -64,10 +64,10 @@ def gama2Cinza():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('xadrez2Cinza.jpg')
+    img.save('images/02/xadrez2Cinza.jpg')
 
 def gama3Cinza():
-    img = Image.open('xadrez.jpg')
+    img = Image.open('images/xadrez.jpg')
     matriz = img.load()
 
     gama = 3
@@ -78,13 +78,13 @@ def gama3Cinza():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('xadrez3Cinza.jpg')
+    img.save('images/02/xadrez3Cinza.jpg')
 
 # Letra B: Use uma imagem colorida e faça um código para a correção gama 
 # desta imagem para os valores de gama 0.25, 0.5, 1, 2, 3.
 
 def gama025Colorido():
-    img = Image.open('louroJose.jpg')
+    img = Image.open('images/louroJose.jpg')
     matriz = img.load()
 
     gama = 0.25
@@ -95,10 +95,10 @@ def gama025Colorido():
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
     
-    img.save('louro025Colorida.jpg')
+    img.save('images/02/louro025Colorida.jpg')
 
 def gama050Colorida():
-    img = Image.open('louroJose.jpg')
+    img = Image.open('images/louroJose.jpg')
     matriz = img.load()
 
     gama = 0.50
@@ -108,10 +108,10 @@ def gama050Colorida():
             g = int((matriz[i, j][1]/255) ** gama * 255)
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
-    img.save('louro050Colorido.jpg')
+    img.save('images/02/louro050Colorido.jpg')
 
 def gama1Colorida():
-    img = Image.open('louroJose.jpg')
+    img = Image.open('images/louroJose.jpg')
     matriz = img.load()
 
     gama = 1
@@ -121,10 +121,10 @@ def gama1Colorida():
             g = int((matriz[i, j][1]/255) ** gama * 255)
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
-    img.save('louro1Colorido.jpg')
+    img.save('images/02/louro1Colorido.jpg')
 
 def gama2Colorida():
-    img = Image.open('louroJose.jpg')
+    img = Image.open('images/louroJose.jpg')
     matriz = img.load()
 
     gama = 2
@@ -134,10 +134,10 @@ def gama2Colorida():
             g = int((matriz[i, j][1]/255) ** gama * 255)
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
-    img.save('louro2Colorido.jpg')
+    img.save('images/02/louro2Colorido.jpg')
 
 def gama3Colorida():
-    img = Image.open('louroJose.jpg')
+    img = Image.open('images/louroJose.jpg')
     matriz = img.load()
 
     gama = 3
@@ -147,7 +147,7 @@ def gama3Colorida():
             g = int((matriz[i, j][1]/255) ** gama * 255)
             b = int((matriz[i, j][2]/255) ** gama * 255)
             matriz[i, j] = (r, g, b)
-    img.save('louro3Colorido.jpg')
+    img.save('images/02/louro3Colorido.jpg')
 
 
 if __name__ == "__main__":
