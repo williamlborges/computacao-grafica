@@ -7,5 +7,5 @@ img = Image.open('images/onça.png')
 
 img_escala_de_cinza = img.convert('L') 
 
-img_escala_de_cinza.save('escalaDeCinzaL.png')
+img_escala_de_cinza.save('images/escalaDeCinza.png')
 
